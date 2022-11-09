@@ -1,0 +1,14 @@
+@mixin myMixin($color, $background)
+  margin: 0 0 20px 0
+  font-family: Jubilat, Georgia, serif
+  font-size: 20px
+  font-weight: bold
+  text-transform: uppercase
+  color: $color
+  background: $background
+.section.main
+  h2
+    @include myMixin(#c63, #eee)
+.section.secondary
+  h3
+    @include myMixin(#39c, #333)

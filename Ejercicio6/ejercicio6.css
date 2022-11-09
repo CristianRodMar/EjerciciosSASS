@@ -1,1 +1,15 @@
-/*# sourceMappingURL=ejercicio6.css.map */
+.infobox {
+  width: 200px;
+}
+.infobox .message {
+  border: 1px solid red;
+}
+.infobox .message .tittle {
+  color: red;
+}
+.infobox .user {
+  border: 2px solid black;
+}
+.infobox .user .title {
+  color: black;
+}/*# sourceMappingURL=ejercicio6.css.map */

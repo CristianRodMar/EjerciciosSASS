@@ -1,0 +1,9 @@
+@mixin myMixin($font-size)
+  color: #336699
+  font-family: Helvetica, Arial, sans-serif
+  font-size: $font-size
+  font-variant: small-caps
+.product_title
+  @include myMixin(20px)
+.product_title_2
+  @include myMixin(100px)

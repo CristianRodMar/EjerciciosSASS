@@ -1,0 +1,13 @@
+.infobox {
+  color: blue;
+}
+.infobox:hover {
+  color: gray;
+}
+
+.message {
+  color: gray;
+}
+.message:focus {
+  color: red;
+}/*# sourceMappingURL=ejercicio7.css.map */

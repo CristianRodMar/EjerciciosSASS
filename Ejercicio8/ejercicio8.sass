@@ -1,0 +1,10 @@
+@use "color"
+@use "width"
+@use "sass:math"
+
+#page
+  color: color.$main_color
+  width: width.$main_width
+#sidebar
+  color: darken(color.$main_color, 10%)
+  width: width.$main_width * 0.2 //math.div(5rem, 2) para dividir
