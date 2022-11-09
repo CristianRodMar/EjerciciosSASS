@@ -1,0 +1,6 @@
+@mixin myMixin($value)
+  border-radius: $value
+.box-square
+  @include myMixin(0)
+.box-rounded
+  @include myMixin(10px)
